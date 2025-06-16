@@ -1,0 +1,8 @@
+my_model/yolo-env/
+my_model/train2/
+*.zip
+*.dll
+*.lib
+*.pyd
+__pycache__/
+*.pycg

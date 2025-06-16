@@ -1,0 +1,4 @@
+1. Go to my_model directory
+2. Activate venv 
+`yolo-env\Scripts\activate'
+3. Run `python yolo_reminder.py --model my_model.pt --source usb0 --resolution 1280x720' 
