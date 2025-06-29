@@ -367,7 +367,7 @@ def main():
                     
                     # Display frame
                     frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-                    video_placeholder.image(frame_rgb, channels="RGB", use_container_width=True)
+                    video_placeholder.image(frame_rgb, channels="RGB")
                     
                     # Update status
                     if 'detected' in current_status.lower():
