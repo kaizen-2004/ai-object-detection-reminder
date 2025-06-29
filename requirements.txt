@@ -1,11 +1,24 @@
 # Core web framework
 streamlit==1.28.1
 
-# Image processing (essential)
-pillow==10.0.1
+# Computer vision (headless version for cloud)
+opencv-python-headless==4.8.0.76
+
+# Image processing
+pillow==9.5.0
+
+# YOLO object detection
+ultralytics==8.3.160
 
 # Scientific computing
 numpy==1.24.3
 
+# PyTorch (CPU)
+torch==2.0.1
+torchvision==0.15.2
+
 # Additional dependencies
-requests==2.31.0 
+protobuf==4.23.4
+PyYAML==6.0.1
+requests==2.31.0
+tqdm==4.65.0
